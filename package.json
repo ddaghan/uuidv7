@@ -1,0 +1,27 @@
+{
+  "name": "uuidv7mini",
+  "version": "1.0.0",
+  "description": "A small uuidv7 generator",
+  "keywords": [
+    "uuidv7"
+  ],
+  "homepage": "https://github.com/ddaghan/uuidv7#readme",
+  "bugs": {
+    "url": "https://github.com/ddaghan/uuidv7/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddaghan/uuidv7.git"
+  },
+  "license": "ISC",
+  "author": "Daghan Dinc",
+  "type": "module",
+  "main": "uuidv7.js",
+  "scripts": {
+    "build": "tsc && rolldown dist/uuidv7.js --file uuidv7.js --minify=true",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "rolldown": "^1.2.7"
+  }
+}
