@@ -1,5 +1,5 @@
 {
-  "name": "uuidv7mini",
+  "name": "@ddaghan/uuidv7",
   "version": "1.0.0",
   "description": "A small uuidv7 generator",
   "keywords": [
