@@ -1,4 +1,4 @@
-# A very small (155 bytes) uuidv7 generator
+# One liner (148 bytes) uuidv7 generator
 
 ## Install
 

@@ -1,7 +1,7 @@
 {
   "name": "@ddaghan/uuidv7",
-  "version": "1.0.1",
-  "description": "A small uuidv7 generator",
+  "version": "1.0.2",
+  "description": "A very small uuidv7 generator",
   "keywords": [
     "uuidv7"
   ],
@@ -18,10 +18,6 @@
   "type": "module",
   "main": "uuidv7.js",
   "scripts": {
-    "build": "tsc && rolldown dist/uuidv7.js --file uuidv7.js --minify=true",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "rolldown": "^1.2.7"
   }
 }
